@@ -6,3 +6,4 @@ public class Node{
     int min;
 
 }
+
