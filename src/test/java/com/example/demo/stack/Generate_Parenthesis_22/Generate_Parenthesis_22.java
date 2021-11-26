@@ -15,6 +15,10 @@ import java.util.Stack;
  * 1. Generate all possible combinations using recursion by appending a bracket to the empty string O(2^n)
  * 2. Use stack to check whehter paranthesis are balanced. If parantheses are balanced, add formatted string to the list
  * O(n)
+ *
+ * Time O(2^(2n)*n)For each of 2^(2n) sequences, we need to create and validate the sequence, which takes O(n) work.
+ * Time O(2^(2n)*n) For recursive stack traces + to store stack.
+ *
  */
 public class Generate_Parenthesis_22 {
 
