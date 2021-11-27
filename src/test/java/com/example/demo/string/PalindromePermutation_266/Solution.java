@@ -46,7 +46,7 @@ public class Solution {
         System.out.println(returnValue);
     }
     /**
-     * Runtime - O(n) +O(n) = O(n)
-     * Space - O(n)+ O(1) = O(n)
+     * Runtime - O(n)  We traverse over the given string  with n characters once. We also traverse over the map which can grow up to a size of n in case all characters in string are distinct.
+     * Space - O(n). The map can grow up to a maximum number of all distinct elements which can be n in the worse case scenario.
      */
 }

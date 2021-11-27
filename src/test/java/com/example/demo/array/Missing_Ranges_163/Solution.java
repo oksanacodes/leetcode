@@ -30,7 +30,9 @@ public class Solution {
         //1. find missing ranges from lower to nums[0]      prev = 0  current =5  expected "0"-> "4"
 
         //2. find missing ranges in nums
-        //3. find missing ranges from nums[0] to upper
+        //3. find missing ranges from nums[0] to upper.
+        //4. Current is the element of the array. However, once we reach the end of the array, current becomes upper limit
+
         int current=0;
         int previous = lower-1;
         for (int i=0; i<=nums.length; i++){
