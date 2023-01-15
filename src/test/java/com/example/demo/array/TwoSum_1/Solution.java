@@ -16,9 +16,7 @@ public class Solution {
         Map<Integer, Integer> candidates = new HashMap<>();
 
         for(int i=0; i<nums.length; i++){
-            if(target<nums[i]){ // target is 9, element is 15
-                continue;
-            }else{
+
                 int difference = target-nums[i];   // 9-7=2
                 if(candidates.containsKey(difference)){
                     result[0]=i;
@@ -27,8 +25,6 @@ public class Solution {
                 }else{
                     candidates.put(nums[i],i);
                 }
-
-            }
         }
 
 
@@ -39,6 +35,15 @@ public class Solution {
     public void t(){
         int target =9;
         int[]nums = {2,7,11,15};
+        int[] result =twoSum(nums, target);
+        System.out.println(result);
+
+    }
+
+    @Test
+    public void t2(){
+        int target =0;
+        int[]nums = {-3,4,3,90};
         int[] result =twoSum(nums, target);
         System.out.println(result);
 
