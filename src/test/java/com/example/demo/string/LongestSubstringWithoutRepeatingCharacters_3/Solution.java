@@ -70,4 +70,10 @@ public class Solution {
         int returnValue2 = lengthOfLongestSubstring(s2);
         System.out.println(returnValue2);
     }
+    @Test
+    public void test5(){
+        String s="abba";
+        int returnValue = lengthOfLongestSubstring(s);
+        System.out.println(returnValue);
+    }
 }

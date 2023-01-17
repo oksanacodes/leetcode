@@ -13,6 +13,12 @@ import java.util.Map;
  * Each letter in magazine can only be used once in ransomNote.
  *
  */
+
+/*
+Thought process:
+1) create a map for ransomNote string and a map for magazine string where key is the character, and value is the number of time the character occured in the string
+2) iterate through magazineMap against keys of the ransomeNote map. If the key is not present or the key is present, but its value is less than the value needed to construct a randsomNote, return false.
+ */
 public class RansomeNote_383 {
 
     public boolean canConstruct(String ransomNote, String magazine){
@@ -52,4 +58,9 @@ public class RansomeNote_383 {
         Assert.isTrue(canConstruct(ransomNote,magazine));
         Assert.isTrue(!canConstruct(ransomNote,"ab"));
     }
+
+    /*
+    Space Complexity: O(1). We build 2 hashmaps. Each hashmap cant have more than 26 elements in it (26 letters of English alphabet).
+    Time complexity: O(m), where m is the max number of characters in the largest string that is given to us
+     */
 }
