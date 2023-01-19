@@ -30,14 +30,20 @@ https://www.techinterviewhandbook.org/algorithms/array/
    49. Group Anagrams https://leetcode.com/problems/group-anagrams/
    380. Insert Delete GetRandom O(1) https://leetcode.com/problems/insert-delete-getrandom-o1/
 
-
 ## January 17
+4. Linked List
+   237. Delete Node in a Linked List (delete next node)
+## January 18
+4. Linked List
+   19. Remove Nth Node From End of List  (keep n distance between prev and next)
 
-TODO
+## January 19
 4. Linked List
    206. Reverse Linked List https://leetcode.com/problems/reverse-linked-list/
-   141. Linked List Cycle https://leetcode.com/problems/linked-list-cycle/
-   21. Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/
+
+TODO
+     141. Linked List Cycle https://leetcode.com/problems/linked-list-cycle/
+     21. Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/
 
 5. Stack & Queue
    20. Valid Parentheses https://leetcode.com/problems/valid-parentheses/
