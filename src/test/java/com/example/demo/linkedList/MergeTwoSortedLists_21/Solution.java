@@ -20,6 +20,13 @@ import org.junit.jupiter.api.Test;
 public class Solution {
 
 
+    /*
+    1. Create the dummy head of the list that will be returned
+    2. User prev ListNode that helps to step through the LinkedList.
+    3. After loop terminates we know that either l1 or l2 are null. We are gonna link our final list with the non-null list
+
+     */
+
     public ListNode mergeTwoLists(ListNode l1, ListNode l2){
         ListNode pseudohead = new ListNode(0);
         ListNode current = pseudohead;

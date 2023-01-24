@@ -21,11 +21,11 @@ package com.example.demo.design.minStack_155;
  *
  */
 
-public class Solution {
+public class SolutionNode {
     Node head;
     int min;
 
-    public Solution(){
+    public SolutionNode(){
         this.min = Integer.MAX_VALUE;
         this.head=null;
 
