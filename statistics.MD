@@ -62,7 +62,9 @@ https://www.techinterviewhandbook.org/coding-interview-study-plan/
 
 ## January 24
 8. Recursion
-   22. Generate Parentheses - https://leetcode.com/problems/generate-parentheses/
-   77. Combinations https://leetcode.com/problems/combinations/
-   78. Subsets https://leetcode.com/problems/subsets/
+   22. Generate Parentheses - https://leetcode.com/problems/generate-parentheses/ 
+
+## January 26
+   77. Combinations https://leetcode.com/problems/combinations/  
+   78. Subsets https://leetcode.com/problems/subsets/  - TODO
    

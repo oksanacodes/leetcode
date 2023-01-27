@@ -1,8 +1,0 @@
- https://www.ideserve.co.in/learn/time-and-space-complexity-of-recursive-algorithms
-
-Runtime Complexity is 2^n - exponential
-Each fibonacii functin invokes 2 recorsive functions. Therefore total time taken to compute nth number of fibonacci sequence is O(2^n).
-
- Space Complexity is O(nm) where n is the max depth of the recursion tree
-  If each function call of recursive algorithm takes O(m) space and if the maximum depth of recursion tree is 'n'
-  then space complexity of recursive algorithm would be O(nm). Depth is the path from the root node in recursion tree to that leaf node.
