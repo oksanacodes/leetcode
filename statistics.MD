@@ -67,4 +67,17 @@ https://www.techinterviewhandbook.org/coding-interview-study-plan/
 ## January 26
    77. Combinations https://leetcode.com/problems/combinations/  
    78. Subsets https://leetcode.com/problems/subsets/  - TODO
-   
+
+## January 27
+Binary Tree
+   104. Maximum Depth of Binary Tree  https://leetcode.com/problems/maximum-depth-of-binary-tree/
+   226. Invert/Flip Binary Tree https://leetcode.com/problems/invert-binary-tree/
+
+Binary Search Tree
+   235. Lowest Common Ancestor of a Binary Search Tree https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+## January 28
+Graph
+   200 Number of Islands https://leetcode.com/problems/number-of-islands/
+   733 Flood Fill https://leetcode.com/problems/flood-fill/ 
+   542 Matrix https://leetcode.com/problems/01-matrix/
