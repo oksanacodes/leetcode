@@ -76,8 +76,104 @@ Binary Tree
 Binary Search Tree
    235. Lowest Common Ancestor of a Binary Search Tree https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 
-## January 28
+## January 29
 Graph
-   200 Number of Islands https://leetcode.com/problems/number-of-islands/
-   733 Flood Fill https://leetcode.com/problems/flood-fill/ 
-   542 Matrix https://leetcode.com/problems/01-matrix/
+1971. Find if Path Exists in Graph https://leetcode.com/problems/find-if-path-exists-in-graph/description/
+797. All Paths From Source to Target https://leetcode.com/problems/all-paths-from-source-to-target/description/
+133. Clone Graph https://leetcode.com/problems/clone-graph/description/
+1059. All Paths from Source Lead to Destination https://leetcode.com/problems/all-paths-from-source-lead-to-destination/description/
+
+## January 30
+200 Number of Islands https://leetcode.com/problems/number-of-islands/
+
+## February 01
+1091 Shortest Path in Binary Matrix https://leetcode.com/problems/shortest-path-in-binary-matrix/description/
+
+## February 02
+994 Rotting Oranges https://leetcode.com/problems/rotting-oranges/description/
+
+## February 03
+Kruskals and Prim's algorithm
+1584 Min Cost to Connect All Points
+
+## February 04
+Dijkstra’s algorithm
+
+
+## February 05
+Network Delay Time
+Cheapest Flights Within K Stops
+Topological Sorting - Course Schedule II
+
+## February 06
+Heap
+703 Kth Largest Element In a Stream https://leetcode.com/problems/kth-largest-element-in-a-stream/
+1046 Last Stone Weight https://leetcode.com/problems/last-stone-weight/
+
+## February 09
+973 K Closest Points to Origin https://leetcode.com/problems/k-closest-points-to-origin/
+215 Kth Largest Element In An Array https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+## February 10
+Trie - 208 Implement Trie (Prefix Tree) https://leetcode.com/problems/implement-trie-prefix-tree/
+
+## February 14
+Trie - 211 Design Add and Search Words Data Structure https://leetcode.com/problems/design-add-and-search-words-data-structure/
+Intervals - 56. Merge Intervals https://leetcode.com/problems/merge-intervals/
+
+## February 15
+Intervals - 57. Insert Interval https://leetcode.com/problems/insert-interval/
+
+## February 17
+Arrays - 347. Top K Frequent Elements https://leetcode.com/problems/top-k-frequent-elements/description/
+
+## February 20
+Arrays - 271. Encode and Decode Strings https://leetcode.com/problems/encode-and-decode-strings/
+Arrays - 128. Longest Consecutive Sequence https://leetcode.com/problems/longest-consecutive-sequence/
+
+## February 21
+Two Pointers - 125. Valid Palindrome https://leetcode.com/problems/valid-palindrome/
+Two Pointers - 167. Two Sum II - Input Array Is Sorted https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+Two Pointers - 15. 3Sum https://leetcode.com/problems/3sum/
+Two Pointers - 11. Container With Most Water https://leetcode.com/problems/container-with-most-water/
+
+## February 22
+Stack - 20. Valid Parentheses https://leetcode.com/problems/valid-parentheses/
+
+
+## February 23
+Stack - 739. Daily Temperatures https://leetcode.com/problems/daily-temperatures/description/
+Array - 11. Container With Most Water https://leetcode.com/problems/container-with-most-water/
+
+## February 24
+Array - 424. Longest Repeating Character Replacement https://leetcode.com/problems/longest-repeating-character-replacement/
+
+## February 25
+
+## February 26
+Linked List - 143. Reorder List https://leetcode.com/problems/reorder-list/
+Linked List - 19. Remove Nth Node From End of List https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+Linked List - 138. Copy List with Random Pointer https://leetcode.com/problems/copy-list-with-random-pointer/description/
+Linked List - 146. LRU Cache https://leetcode.com/problems/lru-cache/
+
+## February 27
+Binary Tree - 110. Balanced Binary Tree https://leetcode.com/problems/balanced-binary-tree/description/
+
+## March 12
+Binary Tree - 543. Diameter of Binary Tree https://leetcode.com/problems/diameter-of-binary-tree/
+Binary Tree  - 572. Subtree of Another Tree https://leetcode.com/problems/subtree-of-another-tree/description/
+Binary Tree - 235. Lowest Common Ancestor of a Binary Search Tree https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+Binary Tree - 98. Validate Binary Search Tree https://leetcode.com/problems/validate-binary-search-tree/
+
+## March 13
+Binary Tree - 230. Kth Smallest Element in a BST https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+Binary Tree - 105. Construct Binary Tree from Preorder and Inorder Traversal https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+
+
+
+
+Stack - 155. Min Stack https://leetcode.com/problems/min-stack/
+
+
+

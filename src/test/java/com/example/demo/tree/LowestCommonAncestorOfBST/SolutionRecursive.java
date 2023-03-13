@@ -11,7 +11,7 @@ public class SolutionRecursive {
     /*
     Time Complexity: O(N), where N is the number of nodes in the BST. In the worst case we might be visiting all the nodes of the BST.
 
-    Space Complexity: O(N). This is because the maximum amount of space utilized by the recursion stack would be N since the height of a skewed BST could be NNN.
+    Space Complexity: O(N). This is because the maximum amount of space utilized by the recursion stack would be N since the height of a skewed BST could be N.
      */
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q){

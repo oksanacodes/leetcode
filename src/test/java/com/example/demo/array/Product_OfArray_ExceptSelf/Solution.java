@@ -1,5 +1,11 @@
 package com.example.demo.array.Product_OfArray_ExceptSelf;
 
+import org.junit.jupiter.api.Test;
+
+import java.sql.SQLOutput;
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class Solution {
 
     /**
@@ -12,19 +18,24 @@ public class Solution {
         int end = nums.length;
         int[]result = new int[end];
 
-        for (int i=0;i<end; i++){
-            int product =1;
-            //calculate product to the left
-            for(int j=0; j<i;j++){
-                product=product* nums[j];
-            }
-            //calculate product to the right
-            for(int k=i+1; k<end; k++){
-                product= product* nums[k];
-            }
-            //update arrray
-            result[i]=product;
+        int[]prefix=new int[end];
+
+        //calculate product on the left
+        prefix[0] =1;
+        for(int i=1;i<end;i++){
+            prefix[i]=prefix[i-1]*nums[i-1];
         }
+        //calculate product on the right
+        int[]suffix = new int[end];
+        suffix[end-1]=1;
+        for(int i=end-2;i>=0;i--){
+            suffix[i]=suffix[i+1]*nums[i+1];
+        }
+
+        for(int j=0;j<end;j++){
+            result[j]=suffix[j]*prefix[j];
+        }
+
         return result;
     }
 
@@ -59,5 +70,15 @@ public class Solution {
         }
 
         return result;
+    }
+
+    @Test
+    public void t(){
+        int[]nums = {1,2,3,4};
+        //Output: [24,12,8,6]
+        int[]result = productExceptSelf(nums);
+
+        System.out.println(Arrays.stream(result).boxed().collect(Collectors.toList()));
+
     }
 }

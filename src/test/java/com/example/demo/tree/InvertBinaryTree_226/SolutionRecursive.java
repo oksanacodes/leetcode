@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 
 public class SolutionRecursive {
     /*
-     Runtime - O(N) - We visit each node once and perform a constant amount of work at each node.We use a stack to store all nodes to be visited.
-  Each of the n nodes is added to and popped from the stack once, which takes O(1) time.
+     Runtime - O(N) - We visit each node once and perform a constant amount of work at each node.
+     We use a stack to store all nodes to be visited. Each of the n nodes is added to and popped from the stack once, which takes O(1) time.
 
   Space - O(N) -The space is taken up by the recursive call stack. The recursion internally uses a
   call stack that takes up space equivalent to the depth of the tree.

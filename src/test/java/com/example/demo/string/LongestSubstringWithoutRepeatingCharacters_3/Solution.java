@@ -34,7 +34,7 @@ public class Solution {
                 int duplicateIndex=map.get(c)+1;
                 start=Math.max(start,duplicateIndex);
             }
-                map.put(c,i);
+            map.put(c,i);
 
             int strLen = end-start+1;
             global=Math.max(global, strLen);
