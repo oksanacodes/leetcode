@@ -28,3 +28,7 @@ Space Complexity is O(nm) where n is the max depth of the recursion tree
    Backtracking reduced the number of steps taken to reach the final result. This is known as pruning the
    recursion tree because we don't take unnecessary paths.
    ===================================================================================================
+
+   A general approach to backtracking questions in Java (Subsets, Permutations, Combination Sum, Palindromes
+   https://leetcode.com/problems/permutations/solutions/18239/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partioning/?orderBy=most_votes&languageTags=java
+
