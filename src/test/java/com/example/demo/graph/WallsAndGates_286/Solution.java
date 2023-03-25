@@ -32,6 +32,10 @@ import java.util.Queue;
  2. While queue is not empty, get the current position of the gate and move its point up and down, left and right. Determine whether new coordinate is a valid point
  by checking boundaries of the matrix. Another edge case to check is not to override the value that is equal to something that is not INFINITY.
  3. if the new coordinate is valid, increase its value by 1 and add to the queue.
+
+
+ Runtime: O(R*C) - we need to visit all cells. And dfs function runs only once for each cell.
+ Space: O(R*C) - size of recursion stack. In the worst case the whole grid is filled with gates.
  */
 
 public class Solution {

@@ -4,7 +4,7 @@ package com.example.demo.graph.NumberOfIslands_200;
 https://leetcode.com/problems/number-of-islands/description/
 
  */
-public class Solution {
+public class Solution_DFS {
 
     /*
     Linear scan the 2d grid map, if a node contains a '1', then it is a root node that triggers a

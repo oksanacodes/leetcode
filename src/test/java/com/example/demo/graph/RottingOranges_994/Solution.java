@@ -30,7 +30,7 @@ public class Solution {
 
     Time: O(row*column) - need to process every element in the grid at least once when we do  first linear scan
     Then we start the BFS (while loop), that would also take O(row*column) to check all neighboring positions.
-    Space: O(row* column) - number of the rotten oranges in the queue.
+    Space: O(row* column) - number of the rotten oranges in the queue. In the worst case the whole queue is filled with rotten oranges
      */
     public int orangesRotting(int[][] grid) {
         int freshOranges=0;
